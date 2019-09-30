@@ -96,13 +96,13 @@ border:5px solid green;
 box-shadow:0 0 10px #31b43a;
 }
 
-.red-glow(
+.red-glow{
 border:5px solid #fc121b;
 box-shadow:0 0 10px #d01115;
 
-)
-.gray-glow(
+}
+.gray-glow{
 border:5px solid #464647;
 box-shadow:0 0 10px #25292b;
 
-)
+}
