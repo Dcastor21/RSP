@@ -43,14 +43,14 @@ body {
 
 #user-label {
     position: absolute;
-    top: 30px;
-    left: -20px;
+    top:30px;
+    left:-20px;
 }
 
 #comp-label {
     position: absolute;
     top: 30px;
-    right: -30px;
+    right:-30px;
 }
 
 .result {
