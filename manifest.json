@@ -1,4 +1,4 @@
- "short_name": "RPS",
+{ "short_name": "RPS",
   "name": "Rock, Paper, Scissors Game ",
  /* "icons": [
     {
@@ -17,3 +17,4 @@
   "display": "standalone",
   "scope": "",
   "theme_color": "#00ffff"
+}
