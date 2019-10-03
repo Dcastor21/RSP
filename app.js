@@ -21,7 +21,7 @@ function win(userChoice, compChoice){
 userScore++;
 	userScore_span.innerHTML=userScore;
 	compScore_span.innerHTML=compScore;
-	result_p.innerHTML= userChoice + smalluser + "beats"+compChoice+ smallcomp + ". you win.;
+	result_p.innerHTML= userChoice + smalluser + "beats"+compChoice+ smallcomp + ". you win.";
 	userChoice_div.classList.add('green-glow');
 	setTimeout(()=> userChoice_div.classList.remove("green-glow"),4000);
 }
@@ -34,7 +34,7 @@ function lose(userChoice, compChoice){
 	compScore_span.innerHTML=compScore;
 	const smalluser="user".fontsize(3).sub();
 	const smallcomp="comp".fontsize(3).sub();
-	result_p.innerHTML= compChoice + smallcomp + "beats"+userChoice+ smalluser + ". you lose.;
+	result_p.innerHTML= compChoice + smallcomp + "beats"+userChoice+ smalluser + ". you lose.";
 	userChoice_div.classList.add('red-glow');
 	setTimeout(()=> userChoice_div.classList.remove("red-glow"),4000);
 }
@@ -43,7 +43,7 @@ function draw(userChoice, compChoice){
 	const userChoice_div= dodocument.getElementById(userChoice);
 	const smalluser="user".fontsize(3).sub();
 	const smallcomp="comp".fontsize(3).sub();
-	result_p.innerHTML= userChoice + smalluser + "equals"+compChoice+ smallcomp + ". It's a draw.;
+	result_p.innerHTML= userChoice + smalluser + "equals"+compChoice+ smallcomp + ". It's a draw.";
 	userChoice_div.classList.add('gray-glow');
 	setTimeout(() => userChoice_div.classList.remove("gray-glow"),4000);
 }
