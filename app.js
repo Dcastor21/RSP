@@ -51,19 +51,19 @@ function draw(userChoice, compChoice){
 function game(userChoice){
 	const compChoice=getCompChoice();
 	switch(userChoice + compChoice){
-		case "rs":
-		case "pr":
-		case "sp":
+		case "rockscissors":
+		case "paperrock":
+		case "scissorspaper":
 		win(userChoice, compChoice);
 		break;
-		case "rp":
-		case "ps":
-		case "sr":
+		case "rockpaper":
+		case "paperscissors":
+		case "scissorsrock":
 		lose(userChoice, compChoice);
 		break;
-		case "rr":
-		case "pp":
-		case "ss":
+		case "rockrock":
+		case "paperpaper":
+		case "scissorsscissors":
 		draw();
 		break;
 }
