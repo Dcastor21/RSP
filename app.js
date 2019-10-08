@@ -29,7 +29,7 @@ userScore++;
 
 function lose(userChoice, compChoice){
 	compScore++;
-	const userChoice_div= dodocument.getElementById(userChoice);
+	const userChoice_div= document.getElementById(userChoice);
 	userScore_span.innerHTML=userScore;
 	compScore_span.innerHTML=compScore;
 	const smalluser="user".fontsize(3).sub();
@@ -40,7 +40,7 @@ function lose(userChoice, compChoice){
 }
 
 function draw(userChoice, compChoice){
-	const userChoice_div= dodocument.getElementById(userChoice);
+	const userChoice_div= document.getElementById(userChoice);
 	const smalluser="user".fontsize(3).sub();
 	const smallcomp="comp".fontsize(3).sub();
 	result_p.innerHTML= userChoice + smalluser + "equals"+compChoice+ smallcomp + ". It's a draw.";
