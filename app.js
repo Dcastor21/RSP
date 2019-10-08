@@ -81,3 +81,5 @@ scissors_div.addEventListener('click', ()=>
 	game("scissors")
 );
 }
+
+main();
