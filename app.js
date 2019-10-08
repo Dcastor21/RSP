@@ -36,7 +36,7 @@ function lose(userChoice, compChoice){
 	const smallcomp="comp".fontsize(3).sub();
 	result_p.innerHTML= compChoice + smallcomp + "beats"+userChoice+ smalluser + ". you lose.";
 	userChoice_div.classList.add('red-glow');
-	setTimeout(()=> userChoice_div.classList.remove("red-glow"),4000);
+	setTimeout(()=> userChoice_div.classList.remove("red-glow"),300);
 }
 
 function draw(userChoice, compChoice){
@@ -45,7 +45,7 @@ function draw(userChoice, compChoice){
 	const smallcomp="comp".fontsize(3).sub();
 	result_p.innerHTML= userChoice + smalluser + "equals"+compChoice+ smallcomp + ". It's a draw.";
 	userChoice_div.classList.add('gray-glow');
-	setTimeout(() => userChoice_div.classList.remove("gray-glow"),4000);
+	setTimeout(() => userChoice_div.classList.remove("gray-glow"),300);
 }
 
 function game(userChoice){
