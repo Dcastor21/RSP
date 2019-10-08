@@ -23,7 +23,7 @@ userScore++;
 	compScore_span.innerHTML=compScore;
 	result_p.innerHTML= userChoice + smalluser + "beats"+compChoice+ smallcomp + ". you win.";
 	userChoice_div.classList.add('green-glow');
-	setTimeout(()=> userChoice_div.classList.remove("green-glow"),4000);
+	setTimeout(()=> userChoice_div.classList.remove("green-glow"),300);
 }
 
 
