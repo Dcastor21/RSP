@@ -17,7 +17,7 @@ function getCompChoice(){
 function win(userChoice, compChoice){
 	const smalluser="user".fontsize(3).sub();
 	const smallcomp="comp".fontsize(3).sub();
-	const userChoice_div= dodocument.getElementById(userChoice);
+	const userChoice_div= document.getElementById(userChoice);
 userScore++;
 	userScore_span.innerHTML=userScore;
 	compScore_span.innerHTML=compScore;
